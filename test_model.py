@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from PIL import Image
 from torchvision import transforms
 import os
-from .models import CNN
+from models import CNN
 
 model = CNN()
 

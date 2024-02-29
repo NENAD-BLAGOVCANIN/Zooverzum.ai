@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
-from .models import CNN
+from models import CNN
 
 # Step 1: Prepare the dataset
 transform = transforms.Compose([
